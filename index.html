@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinaZDev - Web Mini App</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: "Fira Code", monospace;
+      background-color: var(--tg-theme-bg-color, #0d0d0d);
+      color: var(--tg-theme-text-color, #00a6ff);
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+      padding: 1rem;
+    }
+
+    .terminal {
+      max-width: 850px;
+      width: 100%;
+      border: 2px solid var(--tg-theme-hint-color, #00a6ff);
+      border-radius: 12px;
+      padding: 1.2rem;
+      text-align: left;
+      background: rgba(65, 46, 109, 0.35);
+    }
+
+    .prompt::before {
+      content: "➜ ";
+      vertical-align: middle;
+      color: var(--tg-theme-hint-color, #00a6ff);
+    }
+
+    .typewriter {
+      overflow: hidden;
+      border-right: .15em solid var(--tg-theme-link-color, #00a6ff);
+      white-space: nowrap;
+      width: 0;
+      display: inline-block;
+      vertical-align: middle;
+      animation: typing 3s steps(40, end) forwards;
+    }
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 34ch }
+    }
+
+    .link {
+      display: inline-block;
+      text-decoration: underline;
+      color: var(--tg-theme-link-color, #00a6ff);
+      transition: all 0.3s ease;
+    }
+    .link:hover {
+      color: #ffffff;
+      transform: scale(1.05);
+      text-shadow: 0 0 8px var(--tg-theme-link-color, #00a6ff);
+    }
+
+    .card {
+      display: block;
+      padding: 0.6rem 0.8rem;
+      border-left: 3px solid var(--tg-theme-link-color, #00a6ff);
+      margin-top: 0.8rem;
+      background: rgba(0, 255, 153, 0.05);
+      transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .card:hover {
+      transform: scale(1.03);
+      background: rgba(65, 46, 109, 0.35);
+      box-shadow: 0 0 6px var(--tg-theme-link-color, #00a6ff);
+    }
+
+    .error {
+      color: #ff5555;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="terminal">
+    <p class="prompt">Hi, I'm <span class="font-bold">linaDev</span> 💕</p>
+    <p class="prompt"><span class="typewriter">Welcome to my Github site ✌️😘</span></p>
+
+    <br>
+    <p class="prompt">👉 <a href="https://github.com/LinaZ99Dev" target="_blank" class="link">Visit My GitHub</a></p>
+    <p class="prompt">📨 <a href="https://t.me/Z99TECH" target="_blank" class="link">Follow on Telegram</a></p>
+
+    <br>
+    <p class="prompt"># 📂 My Projects</p>
+    <div id="projects-section">Project Sakura </div>
+    <div id="projects-section">One UI 8 BETA XDA </div>
+
+    <br>
+    <p class="prompt"># 📱 My Devices</p>
+    <div id="devices-section">Galaxy S25FE Soon</div>
+    <div id="devices-section">Galaxy A55 5G</div>
+    <div id="devices-section">Galaxy Note 8 </div>
+    <div id="devices-section">Galaxy J7 NXT</div>
+    <div id="devices-section">Galaxy J5 2015/2016</div>
+
+    <br>
+    <p class="prompt text-sm">Z99 Tech BY Lina Z99 :3</p>
+  </div>
+</body>
+</html>
