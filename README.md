@@ -1,2 +1,35 @@
-# Z99Dev.github.io
-https://camo.githubusercontent.com/62a906ffe01843940365e7ba43b534909a06ae371cae65b498b38197a318c590/68747470733a2f2f636f756e742e6765746c6f6c692e636f6d2f6765742f40576f6c6c7944657632343f7468656d653d67656c626f6f7275
+# 🌌 Hi, I’m Elina 👋  
+
+✨ Developer of **Galaxy A55X** | 💻 Android & One UI Enthusiast  
+
+---
+
+### 🪐 About Me
+Hey there! I’m **Elina**, a passionate developer who loves building sleek, fast, and experimental stuff for Android — especially my favorite project, **Galaxy A55X**.  
+I mix design, performance, and a little bit of magic ✨ to make every build shine.  
+
+🧠 Currently exploring:
+- Modules , Spoofer Device 
+- Optimizing UI performance  
+- Making things *look* and *feel* better
+
+💬 Pronouns: **she/he**  
+🎨 Vibe: tired liquid femboy   
+
+---
+
+### 🚀 Projects & Goals
+- 🌌 **Galaxy A55X** — pushing Samsung devices beyond limits  
+- ⚙️ Exploring **One UI tweaks** and **performance mods**  
+- 🧩 Making dev tools more beautiful and user-friendly  
+
+---
+
+### 🌈 Connect with Me
+🐦 Telegram: *[@ELinahype](#)*  *[@Z99Tech](#)* *[@Z99Chat](#)*
+📂 GitHub Projects: [github.com/LinaZ99Dev](#)
+
+---
+
+> _“Code it with style, break it with grace, rebuild it with passion.”_  
+— Elina 💧
