@@ -31,5 +31,10 @@ I mix design, performance, and a little bit of magic ✨ to make every build shi
 
 ---
 
+![Profile Views](https://komarev.com/ghpvc/?username=ElinaDev&color=ff69b4&style=for-the-badge)
+![Views](https://komarev.com/ghpvc/?username=ElinaDev&color=ff69b4&style=for-the-badge)
+
+---
+
 > _“Code it with style, break it with grace, rebuild it with passion.”_  
 — Elina 💧
