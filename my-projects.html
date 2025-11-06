@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glass Card - My Projects</title>
+    <style>
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(45deg, #08001f, #30197d);
+            overflow: hidden;
+        }
+
+        /* Liquid glass card */
+        .glass-card {
+            position: relative;
+            width: 300px;
+            height: 450px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px) saturate(180%);
+            border-radius: 25px;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), 0 0 15px rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            transform-style: preserve-3d;
+            animation: float 6s ease-in-out infinite, glow 3s ease-in-out infinite alternate;
+            transition: transform 0.3s ease;
+            text-align: center;
+        }
+
+        .glass-card:hover {
+            transform: translateY(-15px) scale(1.05);
+        }
+
+        h2 {
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #fff;
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        /* Floating animation */
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+        }
+
+        /* Soft glowing animation */
+        @keyframes glow {
+            0% { box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), 0 0 15px rgba(255, 255, 255, 0.2); }
+            50% { box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4), 0 0 25px rgba(255, 255, 255, 0.3); }
+            100% { box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), 0 0 15px rgba(255, 255, 255, 0.2); }
+        }
+
+        /* Glass-style button */
+        .glass-btn {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 15px;
+            background: rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+            font-weight: bold;
+        }
+
+        .glass-btn:hover {
+            background: rgba(255, 255, 255, 0.35);
+            box-shadow: 0 8px 24px rgba(255, 255, 255, 0.5);
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="glass-card">
+        <h2>My Projects</h2>
+        <p>Project Sakura </p>
+        <p>OneUI 8 BETA Program </p>
+        <p>OneUI 8.5 OTA Leak soon</p>
+        <P>S25FE Spoofer</P>
+        <p>Z FLIP7 Spoofer  </p>
+        <!-- Back Button -->
+        <a href="index.html" class="glass-btn">← Back</a>
+    </div>
+</body>
+</html>
